@@ -1,0 +1,100 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'segoe ui light';
+}
+.a-color
+{
+    color: #ff206e;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #ffffff;
+}
+header
+{
+    background-image: url(../imgs/pexels-photo-1097456.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.icon
+{
+    margin: 0px 5px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.about .title h2
+{
+    font-size: 80px;
+    letter-spacing: 15px;
+    color: #f1f1f1f1;
+}
+.about .title h3
+{
+    font-size: 40px;
+}
+
+.services .title h2
+{
+    font-size: 80px;
+    letter-spacing: 15px;
+    color: #222;
+}
+.services .title h3
+{
+    font-size: 40px;
+    color: #f1f1f1f1;
+}
+.services .container .row h3
+{
+    position: relative;
+    padding: 20px 0px;
+}
+.services .container .row h3::after
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    background-color: #ff206e;
+    height: 2px;
+    width: 25%;
+}
+.Clients .title h2
+{
+    font-size: 80px;
+    letter-spacing: 15px;
+    color: #f1f1f1f1;
+}
+.Clients .title h3
+{
+    font-size: 40px;
+}
+.Clients .container .row img
+{
+    border: solid 3px #f4f4f4;
+    transform: translateY(50%);
+}
+.Clients .client-feedback
+{
+    border: 2px solid #f4f4f4;
+}
+.Clients .brdr
+{
+    width: 5%;
+    height: 2px;
+    background-color: #ff206e;
+    margin: 10px auto;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0;
+}
+
